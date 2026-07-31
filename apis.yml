@@ -1,7 +1,25 @@
 aid: orapharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orapharma.png
 name: Orapharma
-description: Orapharma is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Orapharma is a specialty pharmaceutical company and a division of Bausch
+  Health focused on oral healthcare, developing and commercializing products that help
+  dental professionals improve and maintain periodontal and oral health. Its portfolio
+  includes Arestin (minocycline HCl microspheres for the treatment of periodontitis)
+  and the OSSIX bone-grafting and regeneration products. Headquartered in Bridgewater,
+  New Jersey, Orapharma partners with dental professionals across the continuum of
+  care. Surfaced as a portfolio company of Canaan Partners and added to the API
+  Evangelist network; it publishes no public developer API or portal at this time.
 url: https://raw.githubusercontent.com/api-evangelist/orapharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pharmaceuticals
+- Oral Health
+- Dental
+- Periodontics
+- Healthcare
+- Life Sciences
+common:
+- type: DomainSecurity
+  url: security/orapharma-domain-security.yml
+- type: Website
+  url: https://www.orapharma.com
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
